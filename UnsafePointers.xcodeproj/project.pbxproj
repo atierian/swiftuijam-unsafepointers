@@ -38,6 +38,9 @@
 		CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
 		CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEB9273641E3007586B3 /* MenuView.swift */; };
+		CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */; };
+		CBB1BEC0273645BC007586B3 /* webster_dictionary in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEBF273645BC007586B3 /* webster_dictionary */; };
+		CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +172,9 @@
 		CBB1BEA3273635AD007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
 		CBB1BEB9273641E3007586B3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PreviewAllColorSchemes.swift"; sourceTree = "<group>"; };
+		CBB1BEBF273645BC007586B3 /* webster_dictionary */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = webster_dictionary; sourceTree = "<group>"; };
+		CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,7 +269,10 @@
 		CBB1BE18273631DB007586B3 /* UnsafePointers */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BEAE27363DF0007586B3 /* Views */,
+				CBB1BEC227364CF8007586B3 /* MenuView */,
+				CBB1BEC127364CF0007586B3 /* ReaderView */,
+				CBB1BEBB2736433A007586B3 /* Extensions */,
+				CBB1BEBE273645AF007586B3 /* Resources */,
 				CBB1BE49273634D3007586B3 /* UnsafePointers.entitlements */,
 				CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */,
 				CBB1BE1D273631DD007586B3 /* Assets.xcassets */,
@@ -368,13 +377,37 @@
 			path = Widget;
 			sourceTree = "<group>";
 		};
-		CBB1BEAE27363DF0007586B3 /* Views */ = {
+		CBB1BEBB2736433A007586B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBB1BEBE273645AF007586B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BEBF273645BC007586B3 /* webster_dictionary */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBB1BEC127364CF0007586B3 /* ReaderView */ = {
 			isa = PBXGroup;
 			children = (
 				CBB1BE1B273631DB007586B3 /* ReaderView.swift */,
+				CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */,
+			);
+			path = ReaderView;
+			sourceTree = "<group>";
+		};
+		CBB1BEC227364CF8007586B3 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
 				CBB1BEB9273641E3007586B3 /* MenuView.swift */,
 			);
-			path = Views;
+			path = MenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE21273631DD007586B3 /* Preview Assets.xcassets in Resources */,
+				CBB1BEC0273645BC007586B3 /* webster_dictionary in Resources */,
 				CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,10 +698,12 @@
 			files = (
 				CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */,
 				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
+				CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
 				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
 				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
+				CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
