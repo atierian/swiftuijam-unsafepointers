@@ -49,11 +49,8 @@ class WidgetViewModel: ObservableObject {
   var wordBank: [String] = []
   var currentIndex = 0
   
-  init() {
-    mock()
-  }
+  init() { mock() }
 }
-
 
 extension WidgetViewModel {
   func mock() {
