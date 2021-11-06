@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */; };
-		CBB1BE1C273631DB007586B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ContentView.swift */; };
+		CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ReaderView.swift */; };
 		CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE1D273631DD007586B3 /* Assets.xcassets */; };
 		CBB1BE21273631DD007586B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE20273631DD007586B3 /* Preview Assets.xcassets */; };
 		CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE22273631DD007586B3 /* Persistence.swift */; };
@@ -37,6 +37,7 @@
 		CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
 		CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
 		CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEB9273641E3007586B3 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,7 +131,7 @@
 /* Begin PBXFileReference section */
 		CBB1BE16273631DB007586B3 /* UnsafePointers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsafePointers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
-		CBB1BE1B273631DB007586B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBB1BE1B273631DB007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
 		CBB1BE1D273631DD007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB1BE20273631DD007586B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBB1BE22273631DD007586B3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 		CBB1BEA1273635AD007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB1BEA3273635AD007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
+		CBB1BEB9273641E3007586B3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,9 +263,9 @@
 		CBB1BE18273631DB007586B3 /* UnsafePointers */ = {
 			isa = PBXGroup;
 			children = (
+				CBB1BEAE27363DF0007586B3 /* Views */,
 				CBB1BE49273634D3007586B3 /* UnsafePointers.entitlements */,
 				CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */,
-				CBB1BE1B273631DB007586B3 /* ContentView.swift */,
 				CBB1BE1D273631DD007586B3 /* Assets.xcassets */,
 				CBB1BE22273631DD007586B3 /* Persistence.swift */,
 				CBB1BE24273631DD007586B3 /* UnsafePointers.xcdatamodeld */,
@@ -364,6 +366,15 @@
 				CBB1BEA3273635AD007586B3 /* Info.plist */,
 			);
 			path = Widget;
+			sourceTree = "<group>";
+		};
+		CBB1BEAE27363DF0007586B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE1B273631DB007586B3 /* ReaderView.swift */,
+				CBB1BEB9273641E3007586B3 /* MenuView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -652,8 +663,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */,
+				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
-				CBB1BE1C273631DB007586B3 /* ContentView.swift in Sources */,
+				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
 				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
 			);
