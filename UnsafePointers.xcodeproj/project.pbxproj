@@ -16,6 +16,27 @@
 		CBB1BE30273631DD007586B3 /* UnsafePointersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE2F273631DD007586B3 /* UnsafePointersTests.swift */; };
 		CBB1BE3A273631DD007586B3 /* UnsafePointersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE39273631DD007586B3 /* UnsafePointersUITests.swift */; };
 		CBB1BE3C273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE3B273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift */; };
+		CBB1BE4C273634E8007586B3 /* TextSourceKit in Frameworks */ = {isa = PBXBuildFile; productRef = CBB1BE4B273634E8007586B3 /* TextSourceKit */; };
+		CBB1BE522736356E007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE512736356E007586B3 /* Assets.xcassets */; };
+		CBB1BE582736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BE5D2736356E007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */; };
+		CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5E2736356E007586B3 /* ContentView.swift */; };
+		CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE602736356E007586B3 /* NotificationController.swift */; };
+		CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE622736356E007586B3 /* NotificationView.swift */; };
+		CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE642736356E007586B3 /* ComplicationController.swift */; };
+		CBB1BE6727363570007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE6627363570007586B3 /* Assets.xcassets */; };
+		CBB1BE6A27363570007586B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE6927363570007586B3 /* Preview Assets.xcassets */; };
+		CBB1BE7627363570007586B3 /* UnsafePointersWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */; };
+		CBB1BE8027363570007586B3 /* UnsafePointersWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */; };
+		CBB1BE8227363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */; };
+		CBB1BE8527363570007586B3 /* UnsafePointersWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BE9A273635AB007586B3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE99273635AB007586B3 /* WidgetKit.framework */; };
+		CBB1BE9C273635AB007586B3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE9B273635AB007586B3 /* SwiftUI.framework */; };
+		CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE9E273635AB007586B3 /* Widget.swift */; };
+		CBB1BEA2273635AD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEA1273635AD007586B3 /* Assets.xcassets */; };
+		CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
+		CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
+		CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +54,78 @@
 			remoteGlobalIDString = CBB1BE15273631DB007586B3;
 			remoteInfo = UnsafePointers;
 		};
+		CBB1BE592736356E007586B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1BE562736356E007586B3;
+			remoteInfo = "UnsafePointersWatch WatchKit Extension";
+		};
+		CBB1BE7227363570007586B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1BE562736356E007586B3;
+			remoteInfo = "UnsafePointersWatch WatchKit Extension";
+		};
+		CBB1BE7C27363570007586B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1BE4E2736356C007586B3;
+			remoteInfo = UnsafePointersWatch;
+		};
+		CBB1BE8327363570007586B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1BE4E2736356C007586B3;
+			remoteInfo = UnsafePointersWatch;
+		};
+		CBB1BEA6273635AD007586B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1BE97273635AB007586B3;
+			remoteInfo = WidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBB1BE8927363570007586B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBB1BE582736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE8D27363570007586B3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CBB1BE8527363570007586B3 /* UnsafePointersWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BEAD273635AD007586B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CBB1BE16273631DB007586B3 /* UnsafePointers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsafePointers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +140,33 @@
 		CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE39273631DD007586B3 /* UnsafePointersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersUITests.swift; sourceTree = "<group>"; };
 		CBB1BE3B273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBB1BE48273634BC007586B3 /* TextSourceKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextSourceKit; sourceTree = "<group>"; };
+		CBB1BE49273634D3007586B3 /* UnsafePointers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnsafePointers.entitlements; sourceTree = "<group>"; };
+		CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsafePointersWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE512736356E007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UnsafePointersWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
+		CBB1BE5E2736356E007586B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBB1BE602736356E007586B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CBB1BE622736356E007586B3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CBB1BE642736356E007586B3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CBB1BE6627363570007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB1BE6927363570007586B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBB1BE6B27363570007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB1BE6C27363570007586B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchTests.swift; sourceTree = "<group>"; };
+		CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchUITests.swift; sourceTree = "<group>"; };
+		CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBB1BE98273635AB007586B3 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE99273635AB007586B3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CBB1BE9B273635AB007586B3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CBB1BE9E273635AB007586B3 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget.intentdefinition; sourceTree = "<group>"; };
+		CBB1BEA1273635AD007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB1BEA3273635AD007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB1BE4C273634E8007586B3 /* TextSourceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,16 +192,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBB1BE542736356E007586B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE6E27363570007586B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE7827363570007586B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE95273635AB007586B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE9C273635AB007586B3 /* SwiftUI.framework in Frameworks */,
+				CBB1BE9A273635AB007586B3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CBB1BE0D273631DB007586B3 = {
 			isa = PBXGroup;
 			children = (
+				CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */,
+				CBB1BE48273634BC007586B3 /* TextSourceKit */,
 				CBB1BE18273631DB007586B3 /* UnsafePointers */,
 				CBB1BE2E273631DD007586B3 /* UnsafePointersTests */,
 				CBB1BE38273631DD007586B3 /* UnsafePointersUITests */,
+				CBB1BE502736356C007586B3 /* UnsafePointersWatch */,
+				CBB1BE5B2736356E007586B3 /* UnsafePointersWatch WatchKit Extension */,
+				CBB1BE7427363570007586B3 /* UnsafePointersWatchTests */,
+				CBB1BE7E27363570007586B3 /* UnsafePointersWatchUITests */,
+				CBB1BE9D273635AB007586B3 /* Widget */,
 				CBB1BE17273631DB007586B3 /* Products */,
+				CBB1BE4A273634E8007586B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +249,11 @@
 				CBB1BE16273631DB007586B3 /* UnsafePointers.app */,
 				CBB1BE2B273631DD007586B3 /* UnsafePointersTests.xctest */,
 				CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */,
+				CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */,
+				CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */,
+				CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */,
+				CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */,
+				CBB1BE98273635AB007586B3 /* WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +261,7 @@
 		CBB1BE18273631DB007586B3 /* UnsafePointers */ = {
 			isa = PBXGroup;
 			children = (
+				CBB1BE49273634D3007586B3 /* UnsafePointers.entitlements */,
 				CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */,
 				CBB1BE1B273631DB007586B3 /* ContentView.swift */,
 				CBB1BE1D273631DD007586B3 /* Assets.xcassets */,
@@ -133,6 +297,75 @@
 			path = UnsafePointersUITests;
 			sourceTree = "<group>";
 		};
+		CBB1BE4A273634E8007586B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE99273635AB007586B3 /* WidgetKit.framework */,
+				CBB1BE9B273635AB007586B3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB1BE502736356C007586B3 /* UnsafePointersWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE512736356E007586B3 /* Assets.xcassets */,
+			);
+			path = UnsafePointersWatch;
+			sourceTree = "<group>";
+		};
+		CBB1BE5B2736356E007586B3 /* UnsafePointersWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */,
+				CBB1BE5E2736356E007586B3 /* ContentView.swift */,
+				CBB1BE602736356E007586B3 /* NotificationController.swift */,
+				CBB1BE622736356E007586B3 /* NotificationView.swift */,
+				CBB1BE642736356E007586B3 /* ComplicationController.swift */,
+				CBB1BE6627363570007586B3 /* Assets.xcassets */,
+				CBB1BE6B27363570007586B3 /* Info.plist */,
+				CBB1BE6C27363570007586B3 /* PushNotificationPayload.apns */,
+				CBB1BE6827363570007586B3 /* Preview Content */,
+			);
+			path = "UnsafePointersWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CBB1BE6827363570007586B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE6927363570007586B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBB1BE7427363570007586B3 /* UnsafePointersWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */,
+			);
+			path = UnsafePointersWatchTests;
+			sourceTree = "<group>";
+		};
+		CBB1BE7E27363570007586B3 /* UnsafePointersWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */,
+				CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */,
+			);
+			path = UnsafePointersWatchUITests;
+			sourceTree = "<group>";
+		};
+		CBB1BE9D273635AB007586B3 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE9E273635AB007586B3 /* Widget.swift */,
+				CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */,
+				CBB1BEA1273635AD007586B3 /* Assets.xcassets */,
+				CBB1BEA3273635AD007586B3 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,12 +376,19 @@
 				CBB1BE12273631DB007586B3 /* Sources */,
 				CBB1BE13273631DB007586B3 /* Frameworks */,
 				CBB1BE14273631DB007586B3 /* Resources */,
+				CBB1BE8D27363570007586B3 /* Embed Watch Content */,
+				CBB1BEAD273635AD007586B3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CBB1BE8427363570007586B3 /* PBXTargetDependency */,
+				CBB1BEA7273635AD007586B3 /* PBXTargetDependency */,
 			);
 			name = UnsafePointers;
+			packageProductDependencies = (
+				CBB1BE4B273634E8007586B3 /* TextSourceKit */,
+			);
 			productName = UnsafePointers;
 			productReference = CBB1BE16273631DB007586B3 /* UnsafePointers.app */;
 			productType = "com.apple.product-type.application";
@@ -189,6 +429,93 @@
 			productReference = CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch" */;
+			buildPhases = (
+				CBB1BE4D2736356C007586B3 /* Resources */,
+				CBB1BE8927363570007586B3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB1BE5A2736356E007586B3 /* PBXTargetDependency */,
+			);
+			name = UnsafePointersWatch;
+			productName = UnsafePointersWatch;
+			productReference = CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch WatchKit Extension" */;
+			buildPhases = (
+				CBB1BE532736356E007586B3 /* Sources */,
+				CBB1BE542736356E007586B3 /* Frameworks */,
+				CBB1BE552736356E007586B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UnsafePointersWatch WatchKit Extension";
+			productName = "UnsafePointersWatch WatchKit Extension";
+			productReference = CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CBB1BE7027363570007586B3 /* UnsafePointersWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchTests" */;
+			buildPhases = (
+				CBB1BE6D27363570007586B3 /* Sources */,
+				CBB1BE6E27363570007586B3 /* Frameworks */,
+				CBB1BE6F27363570007586B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB1BE7327363570007586B3 /* PBXTargetDependency */,
+			);
+			name = UnsafePointersWatchTests;
+			productName = UnsafePointersWatchTests;
+			productReference = CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBB1BE7A27363570007586B3 /* UnsafePointersWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchUITests" */;
+			buildPhases = (
+				CBB1BE7727363570007586B3 /* Sources */,
+				CBB1BE7827363570007586B3 /* Frameworks */,
+				CBB1BE7927363570007586B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB1BE7D27363570007586B3 /* PBXTargetDependency */,
+			);
+			name = UnsafePointersWatchUITests;
+			productName = UnsafePointersWatchUITests;
+			productReference = CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CBB1BE97273635AB007586B3 /* WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildPhases = (
+				CBB1BE94273635AB007586B3 /* Sources */,
+				CBB1BE95273635AB007586B3 /* Frameworks */,
+				CBB1BE96273635AB007586B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetExtension;
+			productName = WidgetExtension;
+			productReference = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +537,23 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = CBB1BE15273631DB007586B3;
 					};
+					CBB1BE4E2736356C007586B3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CBB1BE562736356E007586B3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CBB1BE7027363570007586B3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CBB1BE562736356E007586B3;
+					};
+					CBB1BE7A27363570007586B3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CBB1BE4E2736356C007586B3;
+					};
+					CBB1BE97273635AB007586B3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "UnsafePointers" */;
@@ -228,6 +572,11 @@
 				CBB1BE15273631DB007586B3 /* UnsafePointers */,
 				CBB1BE2A273631DD007586B3 /* UnsafePointersTests */,
 				CBB1BE34273631DD007586B3 /* UnsafePointersUITests */,
+				CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */,
+				CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */,
+				CBB1BE7027363570007586B3 /* UnsafePointersWatchTests */,
+				CBB1BE7A27363570007586B3 /* UnsafePointersWatchUITests */,
+				CBB1BE97273635AB007586B3 /* WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +605,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBB1BE4D2736356C007586B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE522736356E007586B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE552736356E007586B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE6A27363570007586B3 /* Preview Assets.xcassets in Resources */,
+				CBB1BE6727363570007586B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE6F27363570007586B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE7927363570007586B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE96273635AB007586B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BEA2273635AD007586B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,6 +655,7 @@
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
 				CBB1BE1C273631DB007586B3 /* ContentView.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
+				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +676,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBB1BE532736356E007586B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */,
+				CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */,
+				CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */,
+				CBB1BE5D2736356E007586B3 /* UnsafePointersApp.swift in Sources */,
+				CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE6D27363570007586B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE7627363570007586B3 /* UnsafePointersWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE7727363570007586B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BE8227363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift in Sources */,
+				CBB1BE8027363570007586B3 /* UnsafePointersWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1BE94273635AB007586B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */,
+				CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +726,31 @@
 			isa = PBXTargetDependency;
 			target = CBB1BE15273631DB007586B3 /* UnsafePointers */;
 			targetProxy = CBB1BE36273631DD007586B3 /* PBXContainerItemProxy */;
+		};
+		CBB1BE5A2736356E007586B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */;
+			targetProxy = CBB1BE592736356E007586B3 /* PBXContainerItemProxy */;
+		};
+		CBB1BE7327363570007586B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */;
+			targetProxy = CBB1BE7227363570007586B3 /* PBXContainerItemProxy */;
+		};
+		CBB1BE7D27363570007586B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */;
+			targetProxy = CBB1BE7C27363570007586B3 /* PBXContainerItemProxy */;
+		};
+		CBB1BE8427363570007586B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */;
+			targetProxy = CBB1BE8327363570007586B3 /* PBXContainerItemProxy */;
+		};
+		CBB1BEA7273635AD007586B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1BE97273635AB007586B3 /* WidgetExtension */;
+			targetProxy = CBB1BEA6273635AD007586B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -422,8 +874,10 @@
 		CBB1BE40273631DD007586B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnsafePointers/UnsafePointers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointers/Preview Content\"";
@@ -440,19 +894,23 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointers;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
 		CBB1BE41273631DD007586B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnsafePointers/UnsafePointers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointers/Preview Content\"";
@@ -469,11 +927,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointers;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -493,7 +953,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -518,7 +978,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -541,7 +1001,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -564,12 +1024,284 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.alphatier.UnsafePointersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = UnsafePointers;
+			};
+			name = Release;
+		};
+		CBB1BE8727363570007586B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointersWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UnsafePointersWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UnsafePointersWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = UnsafePointersWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CBB1BE8827363570007586B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointersWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UnsafePointersWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UnsafePointersWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = UnsafePointersWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CBB1BE8B27363570007586B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = UnsafePointersWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = UnsafePointersWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.UnsafePointers;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CBB1BE8C27363570007586B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = UnsafePointersWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = UnsafePointersWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.UnsafePointers;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CBB1BE8F27363570007586B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointersWatch WatchKit Extension.appex/UnsafePointersWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CBB1BE9027363570007586B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointersWatch WatchKit Extension.appex/UnsafePointersWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CBB1BE9227363570007586B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = UnsafePointersWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CBB1BE9327363570007586B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = UnsafePointersWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CBB1BEAB273635AD007586B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBB1BEAC273635AD007586B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3Q4R66M4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -612,7 +1344,59 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1BE8727363570007586B3 /* Debug */,
+				CBB1BE8827363570007586B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1BE8B27363570007586B3 /* Debug */,
+				CBB1BE8C27363570007586B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1BE8F27363570007586B3 /* Debug */,
+				CBB1BE9027363570007586B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1BE9227363570007586B3 /* Debug */,
+				CBB1BE9327363570007586B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1BEAB273635AD007586B3 /* Debug */,
+				CBB1BEAC273635AD007586B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBB1BE4B273634E8007586B3 /* TextSourceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TextSourceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CBB1BE24273631DD007586B3 /* UnsafePointers.xcdatamodeld */ = {

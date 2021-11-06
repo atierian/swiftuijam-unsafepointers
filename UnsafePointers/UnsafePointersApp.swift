@@ -2,7 +2,7 @@
 //  UnsafePointersApp.swift
 //  UnsafePointers
 //
-//  Created by alphatier on 11/5/21.
+//  Created by UnsafePointers on 11/5/21.
 //
 
 import SwiftUI

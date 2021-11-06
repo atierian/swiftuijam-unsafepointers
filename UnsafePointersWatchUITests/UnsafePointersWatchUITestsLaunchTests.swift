@@ -1,13 +1,13 @@
 //
-//  UnsafePointersUITestsLaunchTests.swift
-//  UnsafePointersUITests
+//  UnsafePointersWatchUITestsLaunchTests.swift
+//  UnsafePointersWatchUITests
 //
-//  Created by UnsafePointers on 11/5/21.
+//  Created by UnsafePointers on 11/6/21.
 //
 
 import XCTest
 
-class UnsafePointersUITestsLaunchTests: XCTestCase {
+class UnsafePointersWatchUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
