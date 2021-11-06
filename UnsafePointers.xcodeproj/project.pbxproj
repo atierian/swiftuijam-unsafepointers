@@ -41,6 +41,8 @@
 		CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */; };
 		CBB1BEC0273645BC007586B3 /* webster_dictionary in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEBF273645BC007586B3 /* webster_dictionary */; };
 		CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */; };
+		CBB62D4027365638000157BE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB62D3F27365638000157BE /* Helpers.swift */; };
+		CBB62D412736565E000157BE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB62D3F27365638000157BE /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +177,7 @@
 		CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PreviewAllColorSchemes.swift"; sourceTree = "<group>"; };
 		CBB1BEBF273645BC007586B3 /* webster_dictionary */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = webster_dictionary; sourceTree = "<group>"; };
 		CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
+		CBB62D3F27365638000157BE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */,
+				CBB62D3F27365638000157BE /* Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -700,6 +704,7 @@
 				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
 				CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
+				CBB62D4027365638000157BE /* Helpers.swift in Sources */,
 				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
 				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
@@ -758,6 +763,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */,
+				CBB62D412736565E000157BE /* Helpers.swift in Sources */,
 				CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

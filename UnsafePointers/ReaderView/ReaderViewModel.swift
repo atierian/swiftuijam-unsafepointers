@@ -18,7 +18,7 @@ class ReaderViewModel: ObservableObject {
   var wordBank: [String] = []
   var currentIndex = 0
   
-  init(textSource: TextSourceKit.TextSource) {
+  init(textSource: TextSourceKit.TextSource = MockTextSource()) {
     self.textSource = textSource
     mock()
   }

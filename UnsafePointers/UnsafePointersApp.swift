@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import TextSourceKit
 
 @main
 struct UnsafePointersApp: App {
     var body: some Scene {
         WindowGroup {
-          ReaderView(viewModel: .init())
+          ReaderView(viewModel: .init(textSource: MockTextSource()))
         }
     }
 }
